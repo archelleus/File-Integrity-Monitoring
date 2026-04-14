@@ -1,0 +1,12 @@
+import hashlib
+
+def get_hash(file_path, algo="sha256"):
+    hash_func = getattr(hashlib, algo)()
+
+    try:
+        with open(file_path, "rb") as f:
+            while chunk := f.read(4096):
+                hash_func.update(chunk)
+        return hash_func.hexdigest()
+    except Exception:
+        return None
