@@ -151,7 +151,3 @@ This project is intended for educational and research purposes.
 
 ---
 
-If you want, I can next help you:
-
-* make this README **look elite (badges, screenshots, diagrams)**
-* or align it with your **IoMT project so your GitHub looks like a cohesive security portfolio**
