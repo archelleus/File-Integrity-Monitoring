@@ -1,7 +1,3 @@
-Here’s a **clean, professional README.md** you can directly use for your GitHub repo:
-
----
-
 # File Integrity Monitoring System (HIDS)
 
 A lightweight File Integrity Monitoring (FIM) system designed to detect unauthorized changes in files and directories. This project functions as a basic Host-based Intrusion Detection System (HIDS) by tracking file integrity using cryptographic hashing and real-time monitoring.
